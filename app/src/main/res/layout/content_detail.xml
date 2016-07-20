@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.postel.user.logbook2.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/listNamaDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:textColor="@color/nama"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listWaktuDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/year"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/listNamaDetail" />
+
+        <TextView
+            android:id="@+id/labelStatus"
+            android:text="Status :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listWaktuDetail" />
+
+        <TextView
+            android:id="@+id/listStatusDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/labelTlp"
+            android:text="No. Handphone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listStatusDetail" />
+
+        <TextView
+            android:id="@+id/listTlpDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:text="Email :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listTlpDetail" />
+
+        <TextView
+            android:id="@+id/listEmailDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/labelPerusahaan"
+            android:text="Perusahaan :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listEmailDetail" />
+
+        <TextView
+            android:id="@+id/listPerusahaanDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/labelKeperluan"
+            android:text="Keperluan :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listPerusahaanDetail" />
+
+        <TextView
+            android:id="@+id/listKeperluanDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/labelKeterangan"
+            android:text="Keterangan :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_alignTop="@+id/listKeperluanDetail" />
+
+        <TextView
+            android:id="@+id/listKeteranganDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rating"
+            android:textColor="@color/genre"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
